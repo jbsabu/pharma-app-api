@@ -1,0 +1,1309 @@
+{
+  "Region":[
+   {
+    "Column1": 1,
+    "Region ID": "P1.05",
+    "Region symbol": "LS",
+    "Region name": "lateral septal nucleus",
+    "Region abbreviation": "LS",
+    "Region Classification": "telencephalon",
+    "Note": "projection; reinforcement"
+   },
+   {
+    "Column1": 2,
+    "Region ID": "P2.15",
+    "Region symbol": "RS",
+    "Region name": "retrosplenial cortex",
+    "Region abbreviation": "RS",
+    "Region Classification": "telencephalon",
+    "Note": "projection"
+   },
+   {
+    "Column1": 3,
+    "Region ID": "P1.01",
+    "Region symbol": "Cx_motor",
+    "Region name": "cerebral cortex motor",
+    "Region abbreviation": "Cx motor",
+    "Region Classification": "telencephalon",
+    "Note": "motion"
+   },
+   {
+    "Column1": 4,
+    "Region ID": "P1.03",
+    "Region symbol": "Cx_cingulate",
+    "Region name": "cerebral cortex cingulate",
+    "Region abbreviation": "Cx cingulate",
+    "Region Classification": "telencephalon",
+    "Note": "emotion"
+   },
+   {
+    "Column1": 5,
+    "Region ID": "P3.05",
+    "Region symbol": "OB_anterior",
+    "Region name": "olfactory bulb anterior",
+    "Region abbreviation": "OB anterior",
+    "Region Classification": "telencephalon",
+    "Note": "olfaction"
+   },
+   {
+    "Column1": 6,
+    "Region ID": "P3.06",
+    "Region symbol": "OB_posterior",
+    "Region name": "olfactory bulb posterior",
+    "Region abbreviation": "OB posterior",
+    "Region Classification": "telencephalon",
+    "Note": "olfaction"
+   },
+   {
+    "Column1": 7,
+    "Region ID": "P4.01",
+    "Region symbol": "Pir",
+    "Region name": "piriform cortex",
+    "Region abbreviation": "Pir",
+    "Region Classification": "telencephalon",
+    "Note": "olfaction"
+   },
+   {
+    "Column1": 8,
+    "Region ID": "P2.10",
+    "Region symbol": "Tu",
+    "Region name": "olfactory tubercle",
+    "Region abbreviation": "Tu",
+    "Region Classification": "telencephalon",
+    "Note": "olfaction"
+   },
+   {
+    "Column1": 9,
+    "Region ID": "P3.15",
+    "Region symbol": "ventral_S",
+    "Region name": "ventral subiculum",
+    "Region abbreviation": "ventral S",
+    "Region Classification": "telencephalon",
+    "Note": "projection from hippocampus"
+   },
+   {
+    "Column1": 10,
+    "Region ID": "P3.01",
+    "Region symbol": "CA1",
+    "Region name": "CA1 (hippocampus)",
+    "Region abbreviation": "CA1",
+    "Region Classification": "telencephalon",
+    "Note": "memory; emotion"
+   },
+   {
+    "Column1": 11,
+    "Region ID": "P3.08",
+    "Region symbol": "CA2_CA3",
+    "Region name": "CA2 \/ CA3 (hippocampus)",
+    "Region abbreviation": "CA2\/CA3",
+    "Region Classification": "telencephalon",
+    "Note": "memory; emotion"
+   },
+   {
+    "Column1": 12,
+    "Region ID": "P2.04",
+    "Region symbol": "DG",
+    "Region name": "dentate gyrus (hippocampus)",
+    "Region abbreviation": "DG",
+    "Region Classification": "telencephalon",
+    "Note": "memory; emotion; neurogenesis"
+   },
+   {
+    "Column1": 13,
+    "Region ID": "P1.18",
+    "Region symbol": "A_anterior",
+    "Region name": "amygdala anterior",
+    "Region abbreviation": "A anterior",
+    "Region Classification": "telencephalon",
+    "Note": "emotion; fear; anxiety"
+   },
+   {
+    "Column1": 14,
+    "Region ID": "P2.12",
+    "Region symbol": "A_posterior",
+    "Region name": "amygdala posterior",
+    "Region abbreviation": "A posterior",
+    "Region Classification": "telencephalon",
+    "Note": "emotion; fear; anxiety"
+   },
+   {
+    "Column1": 15,
+    "Region ID": "P2.05",
+    "Region symbol": "GP",
+    "Region name": "globus pallidus",
+    "Region abbreviation": "GP",
+    "Region Classification": "telencephalon",
+    "Note": "motion; a part of basal ganglia"
+   },
+   {
+    "Column1": 16,
+    "Region ID": "P1.06",
+    "Region symbol": "CPu_lateral",
+    "Region name": "caudate putamen lateral",
+    "Region abbreviation": "CPu lateral",
+    "Region Classification": "telencephalon",
+    "Note": "motion; learning"
+   },
+   {
+    "Column1": 17,
+    "Region ID": "P1.07",
+    "Region symbol": "CPu_medial",
+    "Region name": "caudate putamen medial",
+    "Region abbreviation": "CPu medial",
+    "Region Classification": "telencephalon",
+    "Note": "motion; learning"
+   },
+   {
+    "Column1": 18,
+    "Region ID": "P2.07",
+    "Region symbol": "MD",
+    "Region name": "mediodorsal thalamic nucleus",
+    "Region abbreviation": "MD",
+    "Region Classification": "thalamus",
+    "Note": "emotion; sensory"
+   },
+   {
+    "Column1": 19,
+    "Region ID": "P1.17",
+    "Region symbol": "VA_VL",
+    "Region name": "ventral anterior thalamic nucleus \/ ventrolateral thalamic nucleus",
+    "Region abbreviation": "VA\/VL",
+    "Region Classification": "thalamus",
+    "Note": "sensory"
+   },
+   {
+    "Column1": 20,
+    "Region ID": "P2.18",
+    "Region symbol": "VPM_VPL",
+    "Region name": "ventral posteromedial thalamic nucleus \/ ventral posterolateral thalamic nucleus",
+    "Region abbreviation": "VPM\/VPL",
+    "Region Classification": "thalamus",
+    "Note": "sensory"
+   },
+   {
+    "Column1": 21,
+    "Region ID": "P1.A",
+    "Region symbol": "LG",
+    "Region name": "lateral geniculate body",
+    "Region abbreviation": "LG",
+    "Region Classification": "thalamus",
+    "Note": "vision"
+   },
+   {
+    "Column1": 22,
+    "Region ID": "P2.09",
+    "Region symbol": "MG",
+    "Region name": "medial geniculate nucleus",
+    "Region abbreviation": "MG",
+    "Region Classification": "thalamus",
+    "Note": "audition"
+   },
+   {
+    "Column1": 23,
+    "Region ID": "P3.09",
+    "Region symbol": "Hb",
+    "Region name": "habenular nucleus",
+    "Region abbreviation": "Hb",
+    "Region Classification": "thalamus",
+    "Note": "behaviour"
+   },
+   {
+    "Column1": 24,
+    "Region ID": "P5.03",
+    "Region symbol": "Pineal",
+    "Region name": "corpus pineal",
+    "Region abbreviation": "Pineal",
+    "Region Classification": "misc",
+    "Note": "wake\/sleep; melatonin"
+   },
+   {
+    "Column1": 25,
+    "Region ID": "P1.22",
+    "Region symbol": "M",
+    "Region name": "mammillary body",
+    "Region abbreviation": "M",
+    "Region Classification": "hypothalamus",
+    "Note": "emotion; Papez's circuit"
+   },
+   {
+    "Column1": 26,
+    "Region ID": "P4.02",
+    "Region symbol": "ME",
+    "Region name": "median eminence",
+    "Region abbreviation": "ME",
+    "Region Classification": "hypothalamus",
+    "Note": "endocrine; photoperiodic calendar"
+   },
+   {
+    "Column1": 27,
+    "Region ID": "P3.07",
+    "Region symbol": "Pituitary",
+    "Region name": "pituitary",
+    "Region abbreviation": "Pituitary",
+    "Region Classification": "misc",
+    "Note": "endocrine"
+   },
+   {
+    "Column1": 28,
+    "Region ID": "P3.03",
+    "Region symbol": "SCN",
+    "Region name": "suprachiasmatic nucleus",
+    "Region abbreviation": "SCN",
+    "Region Classification": "hypothalamus",
+    "Note": "circadian clock center"
+   },
+   {
+    "Column1": 29,
+    "Region ID": "P1.12",
+    "Region symbol": "MPA",
+    "Region name": "medial preoptic area ",
+    "Region abbreviation": "MPA",
+    "Region Classification": "hypothalamus",
+    "Note": "thermoregulation"
+   },
+   {
+    "Column1": 30,
+    "Region ID": "P1.14",
+    "Region symbol": "SO",
+    "Region name": "supraoptic nucleus",
+    "Region abbreviation": "SO",
+    "Region Classification": "hypothalamus",
+    "Note": "vasopressin; oxytocin"
+   },
+   {
+    "Column1": 31,
+    "Region ID": "P2.13",
+    "Region symbol": "Pa",
+    "Region name": "paraventricular hypothalamic nucleus",
+    "Region abbreviation": "Pa",
+    "Region Classification": "hypothalamus",
+    "Note": "stress; vasopressin; oxytocin; CRF"
+   },
+   {
+    "Column1": 32,
+    "Region ID": "P4.03",
+    "Region symbol": "SPa_ventral",
+    "Region name": "subparaventricular zone ventral",
+    "Region abbreviation": "SPa ventral",
+    "Region Classification": "hypothalamus",
+    "Note": "projection from SCN"
+   },
+   {
+    "Column1": 33,
+    "Region ID": "P5.01",
+    "Region symbol": "SPa_dorsal",
+    "Region name": "subparaventricular zone dorsal",
+    "Region abbreviation": "SPa dorsal",
+    "Region Classification": "hypothalamus",
+    "Note": "projection from SCN"
+   },
+   {
+    "Column1": 34,
+    "Region ID": "P3.02",
+    "Region symbol": "DM",
+    "Region name": "dorsomedial hypothalamic nucleus",
+    "Region abbreviation": "DM",
+    "Region Classification": "hypothalamus",
+    "Note": "feeding; behaviour"
+   },
+   {
+    "Column1": 35,
+    "Region ID": "P1.20",
+    "Region symbol": "VMH",
+    "Region name": "ventromedial hypothalamic nucleus",
+    "Region abbreviation": "VMH",
+    "Region Classification": "hypothalamus",
+    "Note": "satiety center"
+   },
+   {
+    "Column1": 36,
+    "Region ID": "P2.01",
+    "Region symbol": "Arc",
+    "Region name": "arcuate hypothalamic nucleus",
+    "Region abbreviation": "Arc",
+    "Region Classification": "hypothalamus",
+    "Note": "endocrine; projection"
+   },
+   {
+    "Column1": 37,
+    "Region ID": "P1.13",
+    "Region symbol": "LH",
+    "Region name": "lateral hypothalamus",
+    "Region abbreviation": "LH",
+    "Region Classification": "hypothalamus",
+    "Note": "hunger center"
+   },
+   {
+    "Column1": 38,
+    "Region ID": "P2.11",
+    "Region symbol": "PAG",
+    "Region name": "periaqueductal gray",
+    "Region abbreviation": "PAG",
+    "Region Classification": "mesencephalon",
+    "Note": "pain regulation"
+   },
+   {
+    "Column1": 39,
+    "Region ID": "P3.12",
+    "Region symbol": "SC",
+    "Region name": "superior colliculus",
+    "Region abbreviation": "SC",
+    "Region Classification": "mesencephalon",
+    "Note": "vision; sensory"
+   },
+   {
+    "Column1": 40,
+    "Region ID": "P2.06",
+    "Region symbol": "IC",
+    "Region name": "inferior colliculus",
+    "Region abbreviation": "IC",
+    "Region Classification": "mesencephalon",
+    "Note": "audition"
+   },
+   {
+    "Column1": 41,
+    "Region ID": "P5.02",
+    "Region symbol": "VTA",
+    "Region name": "ventral tegmental area",
+    "Region abbreviation": "VTA",
+    "Region Classification": "mesencephalon",
+    "Note": "reward; dopamine"
+   },
+   {
+    "Column1": 42,
+    "Region ID": "P1.28",
+    "Region symbol": "SN",
+    "Region name": "substantia nigra",
+    "Region abbreviation": "SN",
+    "Region Classification": "mesencephalon",
+    "Note": "reward; dopamine"
+   },
+   {
+    "Column1": 43,
+    "Region ID": "P3.14",
+    "Region symbol": "Tg",
+    "Region name": "dorsal tegmental nucleus",
+    "Region abbreviation": "Tg",
+    "Region Classification": "mesencephalon",
+    "Note": "acetylcholine; REM sleep"
+   },
+   {
+    "Column1": 44,
+    "Region ID": "P3.13",
+    "Region symbol": "Pn",
+    "Region name": "pontine nucleus",
+    "Region abbreviation": "Pn",
+    "Region Classification": "pons",
+    "Note": "motion"
+   },
+   {
+    "Column1": 45,
+    "Region ID": "P2.08",
+    "Region symbol": "MVe",
+    "Region name": "medial vestibular nucleus",
+    "Region abbreviation": "MVe",
+    "Region Classification": "pons",
+    "Note": "equilibrium"
+   },
+   {
+    "Column1": 46,
+    "Region ID": "P3.10",
+    "Region symbol": "Cb_vermis",
+    "Region name": "cerebellar cortex vermis",
+    "Region abbreviation": "Cb vermis",
+    "Region Classification": "cerebellum",
+    "Note": "motion"
+   },
+   {
+    "Column1": 47,
+    "Region ID": "P3.11",
+    "Region symbol": "Cb_lobe",
+    "Region name": "cerebellar cortex lobe",
+    "Region abbreviation": "Cb lobe",
+    "Region Classification": "cerebellum",
+    "Note": "motion"
+   },
+   {
+    "Column1": 48,
+    "Region ID": "P2.03",
+    "Region symbol": "Cb_nucleus",
+    "Region name": "cerebellar nucleus",
+    "Region abbreviation": "Cb nucleus",
+    "Region Classification": "cerebellum",
+    "Note": "output from cerebellum"
+   },
+   {
+    "Column1": 49,
+    "Region ID": "P2.16",
+    "Region symbol": "spinal_cord_anterior",
+    "Region name": "spinal cord anterior",
+    "Region abbreviation": "spinal cord anterior",
+    "Region Classification": "spinal cord",
+    "Note": "motor neurons"
+   },
+   {
+    "Column1": 50,
+    "Region ID": "P2.17",
+    "Region symbol": "spinal_cord_posterior",
+    "Region name": "spinal cord posterior",
+    "Region abbreviation": "spinal cord posterior",
+    "Region Classification": "spinal cord",
+    "Note": "touch"
+   },
+   {
+    "Column1": 51,
+    "Region ID": "P3.04",
+    "Region symbol": "Retina",
+    "Region name": "retina",
+    "Region abbreviation": "Retina",
+    "Region Classification": "misc",
+    "Note": "vision"
+   }
+  ],
+  "Sample":[
+   {
+    "Sample ID": "P1.05.1",
+    "Region ID": "P1.05",
+    "Region symbol": "LS",
+    "Region abbreviation": "LS",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38469
+   },
+   {
+    "Sample ID": "P1.05.2",
+    "Region ID": "P1.05",
+    "Region symbol": "LS",
+    "Region abbreviation": "LS",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473,
+    "Sampling date2": 38486
+   },
+   {
+    "Sample ID": "P2.15.1",
+    "Region ID": "P2.15",
+    "Region symbol": "RS",
+    "Region abbreviation": "RS",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38622
+   },
+   {
+    "Sample ID": "P2.15.2",
+    "Region ID": "P2.15",
+    "Region symbol": "RS",
+    "Region abbreviation": "RS",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38629
+   },
+   {
+    "Sample ID": "P1.01.1",
+    "Region ID": "P1.01",
+    "Region symbol": "Cx_motor",
+    "Region abbreviation": "Cx motor",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38469
+   },
+   {
+    "Sample ID": "P1.01.2",
+    "Region ID": "P1.01",
+    "Region symbol": "Cx_motor",
+    "Region abbreviation": "Cx motor",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473
+   },
+   {
+    "Sample ID": "P1.03.1",
+    "Region ID": "P1.03",
+    "Region symbol": "Cx_cingulate",
+    "Region abbreviation": "Cx cingulate",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38469
+   },
+   {
+    "Sample ID": "P1.03.2",
+    "Region ID": "P1.03",
+    "Region symbol": "Cx_cingulate",
+    "Region abbreviation": "Cx cingulate",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473
+   },
+   {
+    "Sample ID": "P3.05.1",
+    "Region ID": "P3.05",
+    "Region symbol": "OB_anterior",
+    "Region abbreviation": "OB anterior",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38923
+   },
+   {
+    "Sample ID": "P3.05.2",
+    "Region ID": "P3.05",
+    "Region symbol": "OB_anterior",
+    "Region abbreviation": "OB anterior",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38925
+   },
+   {
+    "Sample ID": "P3.06.1",
+    "Region ID": "P3.06",
+    "Region symbol": "OB_posterior",
+    "Region abbreviation": "OB posterior",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38923
+   },
+   {
+    "Sample ID": "P3.06.2",
+    "Region ID": "P3.06",
+    "Region symbol": "OB_posterior",
+    "Region abbreviation": "OB posterior",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38925
+   },
+   {
+    "Sample ID": "P4.01.1",
+    "Region ID": "P4.01",
+    "Region symbol": "Pir",
+    "Region abbreviation": "Pir",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39065
+   },
+   {
+    "Sample ID": "P4.01.2",
+    "Region ID": "P4.01",
+    "Region symbol": "Pir",
+    "Region abbreviation": "Pir",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39065
+   },
+   {
+    "Sample ID": "P2.10.1",
+    "Region ID": "P2.10",
+    "Region symbol": "Tu",
+    "Region abbreviation": "Tu",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38562
+   },
+   {
+    "Sample ID": "P2.10.2",
+    "Region ID": "P2.10",
+    "Region symbol": "Tu",
+    "Region abbreviation": "Tu",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38579
+   },
+   {
+    "Sample ID": "P3.15.1",
+    "Region ID": "P3.15",
+    "Region symbol": "ventral_S",
+    "Region abbreviation": "ventral S",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38923
+   },
+   {
+    "Sample ID": "P3.15.2",
+    "Region ID": "P3.15",
+    "Region symbol": "ventral_S",
+    "Region abbreviation": "ventral S",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38925
+   },
+   {
+    "Sample ID": "P3.01.1",
+    "Region ID": "P3.01",
+    "Region symbol": "CA1",
+    "Region abbreviation": "CA1",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38891
+   },
+   {
+    "Sample ID": "P3.01.2",
+    "Region ID": "P3.01",
+    "Region symbol": "CA1",
+    "Region abbreviation": "CA1",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38924
+   },
+   {
+    "Sample ID": "P3.08.1",
+    "Region ID": "P3.08",
+    "Region symbol": "CA2_CA3",
+    "Region abbreviation": "CA2\/CA3",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38891
+   },
+   {
+    "Sample ID": "P3.08.2",
+    "Region ID": "P3.08",
+    "Region symbol": "CA2_CA3",
+    "Region abbreviation": "CA2\/CA3",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38925
+   },
+   {
+    "Sample ID": "P2.04.1",
+    "Region ID": "P2.04",
+    "Region symbol": "DG",
+    "Region abbreviation": "DG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.04.2",
+    "Region ID": "P2.04",
+    "Region symbol": "DG",
+    "Region abbreviation": "DG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P1.18.1",
+    "Region ID": "P1.18",
+    "Region symbol": "A_anterior",
+    "Region abbreviation": "A anterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38469
+   },
+   {
+    "Sample ID": "P1.18.2",
+    "Region ID": "P1.18",
+    "Region symbol": "A_anterior",
+    "Region abbreviation": "A anterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38473
+   },
+   {
+    "Sample ID": "P2.12.1",
+    "Region ID": "P2.12",
+    "Region symbol": "A_posterior",
+    "Region abbreviation": "A posterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38501,
+    "Sampling date2": 38503
+   },
+   {
+    "Sample ID": "P2.12.2",
+    "Region ID": "P2.12",
+    "Region symbol": "A_posterior",
+    "Region abbreviation": "A posterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38511
+   },
+   {
+    "Sample ID": "P2.05.1",
+    "Region ID": "P2.05",
+    "Region symbol": "GP",
+    "Region abbreviation": "GP",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.05.2",
+    "Region ID": "P2.05",
+    "Region symbol": "GP",
+    "Region abbreviation": "GP",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P1.06.1",
+    "Region ID": "P1.06",
+    "Region symbol": "CPu_lateral",
+    "Region abbreviation": "CPu lateral",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38469
+   },
+   {
+    "Sample ID": "P1.06.2",
+    "Region ID": "P1.06",
+    "Region symbol": "CPu_lateral",
+    "Region abbreviation": "CPu lateral",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473,
+    "Sampling date2": 38486
+   },
+   {
+    "Sample ID": "P1.07.1",
+    "Region ID": "P1.07",
+    "Region symbol": "CPu_medial",
+    "Region abbreviation": "CPu medial",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38469
+   },
+   {
+    "Sample ID": "P1.07.2",
+    "Region ID": "P1.07",
+    "Region symbol": "CPu_medial",
+    "Region abbreviation": "CPu medial",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473,
+    "Sampling date2": 38486
+   },
+   {
+    "Sample ID": "P2.07.1",
+    "Region ID": "P2.07",
+    "Region symbol": "MD",
+    "Region abbreviation": "MD",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.07.2",
+    "Region ID": "P2.07",
+    "Region symbol": "MD",
+    "Region abbreviation": "MD",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P1.17.1",
+    "Region ID": "P1.17",
+    "Region symbol": "VA_VL",
+    "Region abbreviation": "VA\/VL",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38469,
+    "Sampling date2": 38473
+   },
+   {
+    "Sample ID": "P1.17.2",
+    "Region ID": "P1.17",
+    "Region symbol": "VA_VL",
+    "Region abbreviation": "VA\/VL",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38486,
+    "Sampling date2": 38511
+   },
+   {
+    "Sample ID": "P2.18.1",
+    "Region ID": "P2.18",
+    "Region symbol": "VPM_VPL",
+    "Region abbreviation": "VPM\/VPL",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.18.2",
+    "Region ID": "P2.18",
+    "Region symbol": "VPM_VPL",
+    "Region abbreviation": "VPM\/VPL",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P1.A.1",
+    "Region ID": "P1.A",
+    "Region symbol": "LG",
+    "Region abbreviation": "LG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38473,
+    "Sampling date2": 38486
+   },
+   {
+    "Sample ID": "P1.A.2",
+    "Region ID": "P1.A",
+    "Region symbol": "LG",
+    "Region abbreviation": "LG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38503,
+    "Sampling date2": 38511
+   },
+   {
+    "Sample ID": "P2.09.1",
+    "Region ID": "P2.09",
+    "Region symbol": "MG",
+    "Region abbreviation": "MG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625
+   },
+   {
+    "Sample ID": "P2.09.2",
+    "Region ID": "P2.09",
+    "Region symbol": "MG",
+    "Region abbreviation": "MG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38629
+   },
+   {
+    "Sample ID": "P3.09.1",
+    "Region ID": "P3.09",
+    "Region symbol": "Hb",
+    "Region abbreviation": "Hb",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38891
+   },
+   {
+    "Sample ID": "P3.09.2",
+    "Region ID": "P3.09",
+    "Region symbol": "Hb",
+    "Region abbreviation": "Hb",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38924
+   },
+   {
+    "Sample ID": "P5.03.1",
+    "Region ID": "P5.03",
+    "Region symbol": "Pineal",
+    "Region abbreviation": "Pineal",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P5.03.2",
+    "Region ID": "P5.03",
+    "Region symbol": "Pineal",
+    "Region abbreviation": "Pineal",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P1.22.1",
+    "Region ID": "P1.22",
+    "Region symbol": "M",
+    "Region abbreviation": "M",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38473,
+    "Sampling date2": 38486
+   },
+   {
+    "Sample ID": "P1.22.2",
+    "Region ID": "P1.22",
+    "Region symbol": "M",
+    "Region abbreviation": "M",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38501,
+    "Sampling date2": 38503
+   },
+   {
+    "Sample ID": "P4.02.1",
+    "Region ID": "P4.02",
+    "Region symbol": "ME",
+    "Region abbreviation": "ME",
+    "#mice": "1900\/1\/25",
+    "Sampling date1": 39065
+   },
+   {
+    "Sample ID": "P4.02.2",
+    "Region ID": "P4.02",
+    "Region symbol": "ME",
+    "Region abbreviation": "ME",
+    "#mice": "1900\/1\/25",
+    "Sampling date1": 39065
+   },
+   {
+    "Sample ID": "P3.07.1",
+    "Region ID": "P3.07",
+    "Region symbol": "Pituitary",
+    "Region abbreviation": "Pituitary",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38861
+   },
+   {
+    "Sample ID": "P3.07.2",
+    "Region ID": "P3.07",
+    "Region symbol": "Pituitary",
+    "Region abbreviation": "Pituitary",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38925
+   },
+   {
+    "Sample ID": "P3.03.1",
+    "Region ID": "P3.03",
+    "Region symbol": "SCN",
+    "Region abbreviation": "SCN",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38924,
+    "Sampling date2": 38925
+   },
+   {
+    "Sample ID": "P3.03.2",
+    "Region ID": "P3.03",
+    "Region symbol": "SCN",
+    "Region abbreviation": "SCN",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38939
+   },
+   {
+    "Sample ID": "P1.12.1",
+    "Region ID": "P1.12",
+    "Region symbol": "MPA",
+    "Region abbreviation": "MPA",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38469,
+    "Sampling date2": 38473
+   },
+   {
+    "Sample ID": "P1.12.2",
+    "Region ID": "P1.12",
+    "Region symbol": "MPA",
+    "Region abbreviation": "MPA",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38486,
+    "Sampling date2": 38501
+   },
+   {
+    "Sample ID": "P1.14.1",
+    "Region ID": "P1.14",
+    "Region symbol": "SO",
+    "Region abbreviation": "SO",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38469,
+    "Sampling date2": 38473
+   },
+   {
+    "Sample ID": "P1.14.2",
+    "Region ID": "P1.14",
+    "Region symbol": "SO",
+    "Region abbreviation": "SO",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38486,
+    "Sampling date2": 38503
+   },
+   {
+    "Sample ID": "P2.13.1",
+    "Region ID": "P2.13",
+    "Region symbol": "Pa",
+    "Region abbreviation": "Pa",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38562,
+    "Sampling date2": 38587
+   },
+   {
+    "Sample ID": "P2.13.2",
+    "Region ID": "P2.13",
+    "Region symbol": "Pa",
+    "Region abbreviation": "Pa",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38579,
+    "Sampling date2": 38594
+   },
+   {
+    "Sample ID": "P4.03.1",
+    "Region ID": "P4.03",
+    "Region symbol": "SPa_ventral",
+    "Region abbreviation": "SPa ventral",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P4.03.2",
+    "Region ID": "P4.03",
+    "Region symbol": "SPa_ventral",
+    "Region abbreviation": "SPa ventral",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P5.01.1",
+    "Region ID": "P5.01",
+    "Region symbol": "SPa_dorsal",
+    "Region abbreviation": "SPa dorsal",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P5.01.2",
+    "Region ID": "P5.01",
+    "Region symbol": "SPa_dorsal",
+    "Region abbreviation": "SPa dorsal",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P3.02.1",
+    "Region ID": "P3.02",
+    "Region symbol": "DM",
+    "Region abbreviation": "DM",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38924
+   },
+   {
+    "Sample ID": "P3.02.2",
+    "Region ID": "P3.02",
+    "Region symbol": "DM",
+    "Region abbreviation": "DM",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38939
+   },
+   {
+    "Sample ID": "P1.20.1",
+    "Region ID": "P1.20",
+    "Region symbol": "VMH",
+    "Region abbreviation": "VMH",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38469,
+    "Sampling date2": 38473
+   },
+   {
+    "Sample ID": "P1.20.2",
+    "Region ID": "P1.20",
+    "Region symbol": "VMH",
+    "Region abbreviation": "VMH",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38501,
+    "Sampling date2": 38503
+   },
+   {
+    "Sample ID": "P2.01.1",
+    "Region ID": "P2.01",
+    "Region symbol": "Arc",
+    "Region abbreviation": "Arc",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38617,
+    "Sampling date2": 38625
+   },
+   {
+    "Sample ID": "P2.01.2",
+    "Region ID": "P2.01",
+    "Region symbol": "Arc",
+    "Region abbreviation": "Arc",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38622,
+    "Sampling date2": 38629
+   },
+   {
+    "Sample ID": "P1.13.1",
+    "Region ID": "P1.13",
+    "Region symbol": "LH",
+    "Region abbreviation": "LH",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38469,
+    "Sampling date2": 38473
+   },
+   {
+    "Sample ID": "P1.13.2",
+    "Region ID": "P1.13",
+    "Region symbol": "LH",
+    "Region abbreviation": "LH",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38486,
+    "Sampling date2": 38501
+   },
+   {
+    "Sample ID": "P2.11.1",
+    "Region ID": "P2.11",
+    "Region symbol": "PAG",
+    "Region abbreviation": "PAG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.11.2",
+    "Region ID": "P2.11",
+    "Region symbol": "PAG",
+    "Region abbreviation": "PAG",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P3.12.1",
+    "Region ID": "P3.12",
+    "Region symbol": "SC",
+    "Region abbreviation": "SC",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38622
+   },
+   {
+    "Sample ID": "P3.12.2",
+    "Region ID": "P3.12",
+    "Region symbol": "SC",
+    "Region abbreviation": "SC",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625
+   },
+   {
+    "Sample ID": "P2.06.1",
+    "Region ID": "P2.06",
+    "Region symbol": "IC",
+    "Region abbreviation": "IC",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625
+   },
+   {
+    "Sample ID": "P2.06.2",
+    "Region ID": "P2.06",
+    "Region symbol": "IC",
+    "Region abbreviation": "IC",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38629
+   },
+   {
+    "Sample ID": "P5.02.1",
+    "Region ID": "P5.02",
+    "Region symbol": "VTA",
+    "Region abbreviation": "VTA",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P5.02.2",
+    "Region ID": "P5.02",
+    "Region symbol": "VTA",
+    "Region abbreviation": "VTA",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 39133
+   },
+   {
+    "Sample ID": "P1.28.1",
+    "Region ID": "P1.28",
+    "Region symbol": "SN",
+    "Region abbreviation": "SN",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38473,
+    "Sampling date2": 38501
+   },
+   {
+    "Sample ID": "P1.28.2",
+    "Region ID": "P1.28",
+    "Region symbol": "SN",
+    "Region abbreviation": "SN",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38503
+   },
+   {
+    "Sample ID": "P3.14.1",
+    "Region ID": "P3.14",
+    "Region symbol": "Tg",
+    "Region abbreviation": "Tg",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38617,
+    "Sampling date2": 38625
+   },
+   {
+    "Sample ID": "P3.14.2",
+    "Region ID": "P3.14",
+    "Region symbol": "Tg",
+    "Region abbreviation": "Tg",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625
+   },
+   {
+    "Sample ID": "P3.13.1",
+    "Region ID": "P3.13",
+    "Region symbol": "Pn",
+    "Region abbreviation": "Pn",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38622
+   },
+   {
+    "Sample ID": "P3.13.2",
+    "Region ID": "P3.13",
+    "Region symbol": "Pn",
+    "Region abbreviation": "Pn",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625,
+    "Sampling date2": 38629
+   },
+   {
+    "Sample ID": "P2.08.1",
+    "Region ID": "P2.08",
+    "Region symbol": "MVe",
+    "Region abbreviation": "MVe",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38617,
+    "Sampling date2": 38622
+   },
+   {
+    "Sample ID": "P2.08.2",
+    "Region ID": "P2.08",
+    "Region symbol": "MVe",
+    "Region abbreviation": "MVe",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625
+   },
+   {
+    "Sample ID": "P3.10.1",
+    "Region ID": "P3.10",
+    "Region symbol": "Cb_vermis",
+    "Region abbreviation": "Cb vermis",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473
+   },
+   {
+    "Sample ID": "P3.10.2",
+    "Region ID": "P3.10",
+    "Region symbol": "Cb_vermis",
+    "Region abbreviation": "Cb vermis",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38486
+   },
+   {
+    "Sample ID": "P3.11.1",
+    "Region ID": "P3.11",
+    "Region symbol": "Cb_lobe",
+    "Region abbreviation": "Cb lobe",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38473
+   },
+   {
+    "Sample ID": "P3.11.2",
+    "Region ID": "P3.11",
+    "Region symbol": "Cb_lobe",
+    "Region abbreviation": "Cb lobe",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38486
+   },
+   {
+    "Sample ID": "P2.03.1",
+    "Region ID": "P2.03",
+    "Region symbol": "Cb_nucleus",
+    "Region abbreviation": "Cb nucleus",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38622
+   },
+   {
+    "Sample ID": "P2.03.2",
+    "Region ID": "P2.03",
+    "Region symbol": "Cb_nucleus",
+    "Region abbreviation": "Cb nucleus",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38625,
+    "Sampling date2": 38629
+   },
+   {
+    "Sample ID": "P2.16.1",
+    "Region ID": "P2.16",
+    "Region symbol": "spinal_cord_anterior",
+    "Region abbreviation": "spinal cord anterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.16.2",
+    "Region ID": "P2.16",
+    "Region symbol": "spinal_cord_anterior",
+    "Region abbreviation": "spinal cord anterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P2.17.1",
+    "Region ID": "P2.17",
+    "Region symbol": "spinal_cord_posterior",
+    "Region abbreviation": "spinal cord posterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38587
+   },
+   {
+    "Sample ID": "P2.17.2",
+    "Region ID": "P2.17",
+    "Region symbol": "spinal_cord_posterior",
+    "Region abbreviation": "spinal cord posterior",
+    "#mice": "1900\/1\/15",
+    "Sampling date1": 38594
+   },
+   {
+    "Sample ID": "P3.04.1",
+    "Region ID": "P3.04",
+    "Region symbol": "Retina",
+    "Region abbreviation": "Retina",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38861
+   },
+   {
+    "Sample ID": "P3.04.2",
+    "Region ID": "P3.04",
+    "Region symbol": "Retina",
+    "Region abbreviation": "Retina",
+    "#mice": "1900\/1\/5",
+    "Sampling date1": 38925
+   }
+  ]
+  }
