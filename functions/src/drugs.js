@@ -78,14 +78,17 @@ const drugs = [
 
 
 export async function getDrugs(req,res){
+  console.log("?!!!!")
   const drugData = []
 const pendingData = await coll.get().then((data)=>{
   data.forEach((drug,i)=>{
+    drug.label = drug.name
     drugData.push(drug.data())
 })
 
 }).then(console.log(drugData))
 console.log(drugData)
+res.json(drugData)
 }
 
 

@@ -4,6 +4,7 @@ import cors from "cors";
 import { data } from "./testData.js";
 import fs from "fs";
 import { batchAddDrugs, getDrugs } from "./src/drugs.js";
+import { getReceptors } from "./src/receptors.js";
 
 const PORT = 3005;
 
@@ -17,28 +18,11 @@ app.use(express.json());
 // app.post('/login',login)
 // app.post('/addshow',addShow)
 app.get('/getdrugs',getDrugs)
+app.get('/getreceptors',getReceptors)
 
 // show routes
 
 //10:15
-
-
-
-// const tdData = async () => {
-//   const ids = {};
-//   for (let i = 0; i < data.length; i++) {
-//     if (data[i]["__parsed_extra"]) {
-//       const curIndName = data[i]["__parsed_extra"][10];
-//       const curIndCode = data[i]["__parsed_extra"][15];
-//       console.log(curIndCode, curIndName);
-//       ids[curIndName] = curIndCode;
-//     }
-//   }
-//   const filePath = "./formatData.json";
-//   const fileObject = JSON.parse(fs.readFileSync(filePath, "utf8"));
-//   await fs.writeFileSync(filePath, JSON.stringify(ids, null, 2), "utf8");
-//   console.log(ids);
-// };
 
 // tdData();
 
