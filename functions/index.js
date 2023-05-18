@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import { data } from "./testData.js";
 import fs from "fs";
-import { batchAddDrugs, getDrugs } from "./src/drugs.js";
+import { addDrug, batchAddDrugs, getDrugs } from "./src/drugs.js";
 import { getReceptors } from "./src/receptors.js";
 
 const PORT = 3005;
@@ -19,6 +19,8 @@ app.use(express.json());
 // app.post('/addshow',addShow)
 app.get('/getdrugs',getDrugs)
 app.get('/getreceptors',getReceptors)
+
+app.post('/adddrug',addDrug)
 
 // show routes
 

@@ -93,7 +93,11 @@ res.json(drugData)
 
 
 export async function addDrug(req, res) {
-  const result = await coll.add(req.body);
+  const drug = req.body
+  if (!(drug.agonist && drug.antagonist && drug.moa && drug.name && drug.subtype && drug.category)) {res.status(400).send();  return }
+  console.log("!!!!!")
+  const result = await coll.doc(drug.name.toLowerCase()).set(drug).then(res.send({message:"Substance added to database successfully."})).catch(err=>res.status(400).send({message:err}));
+  console.log(drug)
 }
 
 export async function batchAddDrugs(req, res) {
