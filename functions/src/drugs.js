@@ -16,7 +16,6 @@ const drugs1 = [
   //   {name: "Release of dopamine and norepinephrine from vesicles", target: "Dopamine and norepinephrine transporters"}
   //   ]
   //   },
-    
   //   {
   //   name: "Atomoxetine",
   //   category: ["ADHD medication"],
@@ -30,7 +29,6 @@ const drugs1 = [
   //   {name: "Improvement in executive function", target: "Various mechanisms"}
   //   ]
   //   },
-    
   //   {
   //   name: "Guanfacine",
   //   category: ["ADHD medication"],
@@ -50,7 +48,7 @@ const drugs1 = [
   //     subtype: "Methylxanthine",
   //     agonist: [
   //       "D2",
-  //       "AChR", 
+  //       "AChR",
   //       "5-HT2A"
   //     ],
   //     antagonist: [
@@ -67,43 +65,67 @@ const drugs1 = [
   //       {name: "Increase of adrenaline secretion", target: "Adrenal medulla"}
   //     ]
   //   }
-    
-          
-
 ];
 
-const drugs = [
+const drugs = [];
 
-]
-
-
-export async function getDrugs(req,res){
-  console.log("?!!!!")
-  const drugData = []
-const pendingData = await coll.get().then((data)=>{
-  data.forEach((drug,i)=>{
-    drug.label = drug.name
-    drugData.push(drug.data())
-})
-
-}).then(console.log(drugData))
-console.log(drugData)
-res.json(drugData)
+export async function getDrugs(req, res) {
+  console.log("?!!!!");
+  const drugData = [];
+  const pendingData = await coll
+    .get()
+    .then((data) => {
+      data.forEach((drug, i) => {
+        drug.label = drug.name;
+        drugData.push(drug.data());
+      });
+    })
+    .then(console.log(drugData));
+  // console.log(drugData);
+  res.json(drugData);
 }
 
-
 export async function addDrug(req, res) {
-  const drug = req.body
-  if (!(drug.agonist && drug.antagonist && drug.moa && drug.name && drug.subtype && drug.category)) {res.status(400).send();  return }
-  console.log("!!!!!")
-  const result = await coll.doc(drug.name.toLowerCase()).set(drug).then(res.send({message:"Substance added to database successfully."})).catch(err=>res.status(400).send({message:err}));
-  console.log(drug)
+  const drug = req.body;
+  if (
+    !(
+      drug.agonist &&
+      drug.antagonist &&
+      drug.moa &&
+      drug.name &&
+      drug.subtype &&
+      drug.category
+    )
+  ) {
+    res.status(400).send();
+    return;
+  }
+  console.log("!!!!!");
+  const result = await coll
+    .doc(drug.name.toLowerCase())
+    .set(drug)
+    .then(res.send({ message: "Substance added to database successfully." }))
+    .catch((err) => res.status(400).send({ message: err }));
+  // console.log(drug);
 }
 
 export async function batchAddDrugs(req, res) {
   drugs.forEach(async (drug, i) => {
-    console.log(drug, i);
-    console.log(drug.name);
+    // console.log(drug, i);
+    // console.log(drug.name);
     await coll.doc(drug.name.toLowerCase()).set(drug);
   });
+}
+
+export async function deleteDrug(req, res) {
+  const drug = req.body.drug;
+  //res.send({ message: `Error while deleting ${drug}.` })
+  const end = false
+  const result = await coll
+    .doc(drug.toLowerCase())
+    .delete()
+    .catch(()=>{res.send({message:"Could not delete drug."}); end = true })
+    .then((deleted) =>{ console.log(deleted); if (end) return; res.send({ message: `Deleted ${drug} successfully.` })})
+  ;
+    console.log(result)
 }

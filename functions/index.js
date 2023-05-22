@@ -3,8 +3,10 @@ import express from "express";
 import cors from "cors";
 import { data } from "./testData.js";
 import fs from "fs";
-import { addDrug, batchAddDrugs, getDrugs } from "./src/drugs.js";
+import { addDrug, batchAddDrugs, deleteDrug, getDrugs } from "./src/drugs.js";
 import { getReceptors } from "./src/receptors.js";
+import { authenticateKey, verifyKey } from "./src/authentication.js";
+
 
 const PORT = 3005;
 
@@ -19,8 +21,11 @@ app.use(express.json());
 // app.post('/addshow',addShow)
 app.get('/getdrugs',getDrugs)
 app.get('/getreceptors',getReceptors)
+app.post('/deletedrug',verifyKey,deleteDrug)
 
-app.post('/adddrug',addDrug)
+app.post('/adddrug',verifyKey,addDrug)
+
+app.get('/verifyAuth',authenticateKey)
 
 // show routes
 
@@ -37,7 +42,7 @@ export const api = functions.https.onRequest(app); // exports our cloud function
 // mobile ready projs
 // neaten projs
 // setup portfolio site
-
+ 
 batchAddDrugs()
 
 const receptors = [
